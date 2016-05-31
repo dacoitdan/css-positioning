@@ -2,11 +2,79 @@
 <html>
 <head>
     <title></title>
-    <style type="text/css"></style>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+            width: 70%;
+            margin-left:15%;
+            margin-right:15%;
+        }
+        header {
+            width: 100%;
+            margin-top: 5%;
+            height: 75px;
+            background-color: #eee;
+            position: relative;
+        }
+        ul > li {
+            font-size: 1em;
+            display: inline;
+            padding:0;
+            margin:0;
+            margin-left: 1vw;
+        }
+        header > nav {
+            position: relative;
+            top: 40%;
+            left: -1vw;
+        }
+        li:first-child{
+            margin-left: 0;
+        }
+        h1,
+        h2{
+            border-bottom: 1px solid #ccc;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            font-size: 3em;
+            text-align: center;
+            color: #fff;
+            line-height: 200%;
+            vertical-align: middle;
+            position: absolute;
+            left: 45%;
+            top: -15%;
+            background-color: black;
+            border-radius: 90px;
+        }
+        p{
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .notification{
+            position:fixed;
+            bottom:0;
+            right: 0;
+            background-color: white;
+            /*border: solid 1px black;*/
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+            margin: 2%;
+            padding: 1vh;
+            width: 400px;
+            border-radius: 5px;   
+        }
+        .notification>h3{
+            margin-top:0;
+        } 
+    </style>
 </head>
 <body>
     <header>
-        <div class="logo"></div>
+        <div class="logo">L</div>
         <nav class="navigation">
             <ul>
                 <li>
